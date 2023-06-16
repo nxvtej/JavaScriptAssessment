@@ -238,13 +238,11 @@ console.log("Minted: "+ _nameOfNFT);
 function listNFTs () {
 for(let i = 0 ; i < numberOfNFTs.length;i++)
 {
-  console.log("\nId: \t\t\t\t\t"+(i+1))
-  console.log("Name: \t\t\t\t" + numberOfNFTs[i].name);
+  console.log("\nId: \t\t\t"+(i+1))
+  console.log("Name: \t\t\t" + numberOfNFTs[i].name);
   console.log("EyeColor: \t\t" + numberOfNFTs[i].eyecolor);
-  console.log("ShirtType: \t   "+ numberOfNFTs[i].shirtType);
-  console.log("Bling: \t\t\t\t"+ numberOfNFTs[i].bling);
-
-
+  console.log("ShirtType: \t    "+ numberOfNFTs[i].shirtType);
+  console.log("Bling: \t\t\t"+ numberOfNFTs[i].bling);
 
 }
 }
@@ -261,4 +259,5 @@ mintNFT("Eoe","blue","hooodies","rockChain")
 listNFTs();
 getTotalSupply();
 // call your functions below this line
+
 
